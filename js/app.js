@@ -6,6 +6,7 @@ function getSettingUrl(filePath) {
         alert("URL return1: " + response);
         return response;
     });
+
 }
 
 
@@ -34,6 +35,7 @@ function setTaskMenu(input_data) {
 
 $(document).ready(function() {
     var settingsUrl = getSettingUrl("js/url");
+
 
     alert("Url init: " + settingsUrl);
 
